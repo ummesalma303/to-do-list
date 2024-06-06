@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.to-do-parent{
+    background-image: linear-gradient( rgb(2, 2, 73),rgb(35, 35, 247));
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 270px;
+    margin: 200px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.input-parents input{
+    border: none;
+    padding: 5px;
+    margin: 20px 0;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+.input-parents button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+}
+.text ul{
+    position: relative;
+    text-align: left;
+}
+.text i{
+    position: absolute;
+    right: 10px;
+}
